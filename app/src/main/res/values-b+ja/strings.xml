@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">通知ログビューア</string>
+    <string name="notification_access_label">@string/app_name</string>
+
+    <!-- Activities -->
+    <string name="activity_browse">通知ログ</string>
+    <string name="activity_details">詳細</string>
+
+    <!-- Menu -->
+    <string name="menu_about">このアプリについて</string>
+    <string name="menu_refresh">再読み込み</string>
+    <string name="menu_delete">削除</string>
+    <string name="menu_export">エクスポート</string>
+
+    <!-- Settings categories -->
+    <string name="category_settings">設定</string>
+    <string name="category_actions">アクション</string>
+
+    <!-- Status -->
+    <string name="settings_status">状態</string>
+    <string name="settings_notification_access_unknown">不明</string>
+    <string name="settings_notification_access_enabled">有効</string>
+    <string name="settings_notification_access_disabled">無効 — タップで有効</string>
+
+    <!-- Browse -->
+    <string name="settings_browse">通知ログを見る</string>
+    <string name="settings_browse_summary_singular">%1$d 個の通知</string>
+    <string name="settings_browse_summary_plural">%1$d 個の通知</string>
+
+    <!-- Log text -->
+    <string name="settings_text">ログ</string>
+    <string name="settings_text_summary">通知ログの内容。ログファイルのサイズは増えますが保存できるログの量が増えます。</string>
+
+    <!-- Log ongoing -->
+    <string name="settings_ongoing">進行中のログ</string>
+    <string name="settings_ongoing_summary">ダウンロード状況の様な進行中のログ。追加のログ情報を生成します。</string>
+
+    <!-- Export -->
+    <string name="snackbar_export">エクスポートしています… しばらくお待ちください…</string>
+
+    <!-- Delete -->
+    <string name="dialog_delete_header">削除確認</string>
+    <string name="dialog_delete_text">本当にログファイルを削除しますか？この操作は戻せません</string>
+    <string name="dialog_delete_yes">削除</string>
+    <string name="dialog_delete_no">キャンセル</string>
+
+    <!-- About -->
+    <string name="settings_about">このアプリについて</string>
+    <string name="settings_about_summary">通知ログビューア on GitHub. Licensed under the MIT License.</string>
+
+    <!-- Version -->
+    <string name="settings_version">バージョン</string>
+
+    <!-- Details -->
+    <string name="details_error">ログ情報を読み込めませんでした</string>
+    <string name="empty_log_file">まだ通知ログが存在していません</string>
+    <string name="open_notification_settings">通知の設定を開く</string>
+
+    <!-- Delete Notification -->
+    <string name="delete_dialog_title">通知の削除</string>
+    <string name="delete_dialog_text">この通知を削除しますか？この操作は戻せません</string>
+    <string name="delete_dialog_yes">削除</string>
+    <string name="delete_dialog_no">キャンセル</string>
+
+</resources>
